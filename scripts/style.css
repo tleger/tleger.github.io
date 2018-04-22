@@ -1,0 +1,44 @@
+body {
+  position: relative;
+  /*width: 960px;*/
+  margin: auto auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+{
+
+}
+
+.bar {
+  fill: #2A3A60;
+}
+
+.bar:hover {
+  fill: #A40E4C;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.axis--y path, .axis--y line {
+  stroke: #eee;
+}
+
+.axis--x text, .axis--y text {
+  font-family: "Open Sans";
+  /*fill: #000;*/
+
+}
+/*
+svg {
+  margin-left: -40px
+}*/
+
+select {
+  background-color: white;
+  height: 24px;
+  border: 1px solid #eee;
+  float:right;
+  font-family: "Open Sans";
+}
